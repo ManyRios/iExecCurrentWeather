@@ -69,7 +69,7 @@ const App = () => {
         break;
     }
     setTimeout(() => {
-      setUpdating(false);
+      oracle ? setUpdating(false) : oracle = ' ';
       getOracle();
     }, 2000);
   }
