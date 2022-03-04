@@ -20,8 +20,9 @@ The cities from we take the weather information:
 
 3.- The app was made with react which shows this interaction with the oracle factory.
 
-4.- Below is the link of the app example: 
+4.- Below is the link of the app example: https://i-exec-current-weather.vercel.app/
 
+This app was made with the purpose to show how an app can use the decentralized oracles to interact with an API
 
 # Getting Started with Create React App
 
