@@ -1,14 +1,27 @@
-### The App steps
-A simple app was made taking data from an oracle factory created from an Opensea api to take a floor price from a specific collection and display this data.
+# The App
+This app was made it taking data from an oracle factory created from Open Weather API and from 9 cities. The Decentralized oracles take the current weather information.
 
-Steps:
-1.- The oracle factory was created and we took its id https://oracle-factory.iex.ec/gallery/619d8f10f90d2e344431812c
+The cities from we take the weather information: 
+- Beijing, China.
+- Berlin, Germany.
+- London, UK.
+- Madrid, Spain.
+- Moscow, Russia.
+- Paris, France.
+- Rome, Italy.
+- Tokyo, Japan.
+- Washington, USA. 
 
-2.- 1 smart contract was created to interact with the created oracle. https://github.com/ManyRios/getFloorPrice
+### Steps: 
+
+1.- I create a Decentralized Oracle for each city. 
+
+2.- 1 smart contract was created to interact with the created oracles. https://github.com/ManyRios/iExecCurrentWeather/blob/main/src/contracts/GetWeathers.sol
 
 3.- The app was made with react which shows this interaction with the oracle factory.
 
-4.- Below is the link of the app example:
+4.- Below is the link of the app example: 
+
 
 # Getting Started with Create React App
 
